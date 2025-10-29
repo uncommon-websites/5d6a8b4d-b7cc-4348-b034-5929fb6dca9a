@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	centered={true}
+	title="Automate supplier negotiations and save millions"
+	subtitle="Sage empowers procurement teams to research suppliers and negotiate contracts intelligently, driving measurable cost savings through automated workflows."
+	customers={[
+		{
+			name: "Sarah Mitchell",
+			position: "Procurement Director",
+			imageSrc: "/generated/image-documentary-style-environmental-portrait.webp"
+		},
+		{
+			name: "David Chen",
+			position: "Operations Manager",
+			imageSrc: "/generated/image-candid-environmental-portrait-of-a-profe.webp"
+		},
+		{
+			name: "Jennifer Rodriguez",
+			position: "Sourcing Lead",
+			imageSrc: "/generated/image-editorial-style-portrait-of-a-profession.webp"
+		},
+		{
+			name: "Michael Thompson",
+			position: "Supply Chain Director",
+			imageSrc: "/generated/image-documentary-style-portrait-of-a-professi.webp"
+		},
+		{
+			name: "Emily Parker",
+			position: "Purchasing Manager",
+			imageSrc: "/generated/image-environmental-portrait-of-a-professional.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/caterpillar.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/3m.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/honeywell.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/emerson.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
