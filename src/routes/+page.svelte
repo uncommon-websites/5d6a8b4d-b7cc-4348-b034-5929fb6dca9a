@@ -52,62 +52,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Intelligent procurement, automated"
+	text="Sage transforms how procurement teams at manufacturing companies source suppliers and negotiate contracts. Our platform combines intelligent supplier research with automated negotiation workflows, helping teams secure better pricing and terms while eliminating hours of manual work. The result is millions in documented cost savings and procurement teams freed to focus on strategic decisions rather than repetitive tasks."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Williams",
+			position: "VP of Procurement",
+			company: "Precision Manufacturing",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Sage reduced our supplier negotiation cycle from 6 weeks to 8 days. We saved $2.3M in our first year by identifying better pricing across our top 50 suppliers. The ROI was undeniable.",
+			image: "/generated/image-documentary-style-environmental-portrait.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Rachel Kowalski",
+			position: "Director of Sourcing",
+			company: "TechMold Industries",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Sage, my team spent 60% of our time on manual research and spreadsheets. Now we focus on strategic relationships while Sage handles the data analysis. We've cut sourcing costs by 18% while actually improving supplier quality.",
+			image: "/generated/image-documentary-style-environmental-portrait.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Raj Patel",
+			position: "Chief Procurement Officer",
+			company: "Apex Components",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The automated negotiation workflows eliminated the risk of missing renewal deadlines. We've avoided $800K in unfavorable auto-renewals and locked in multi-year contracts with 22% better terms than our previous deals.",
+			image: "/generated/image-documentary-style-environmental-portrait.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Intelligent procurement workflows"
+	subtitle="Sage combines AI-driven supplier intelligence with automated negotiation workflows to help procurement teams secure better contracts and drive measurable cost savings."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Intelligent supplier discovery",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Sage automatically identifies and evaluates qualified suppliers based on your specific requirements, historical performance data, and market intelligence. Surface the best suppliers faster and eliminate weeks of manual research."
 		},
 		{
-			title: "Data Analysis",
+			title: "Automated negotiation workflows",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Our AI-powered negotiation engine handles contract discussions with suppliers, optimizing terms and pricing based on market benchmarks. Close deals 3x faster while securing better pricing and favorable contract terms."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Real-time cost optimization",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Track savings opportunities across your entire supply base with intelligent cost analysis and predictive recommendations. Identify millions in potential savings and prioritize high-impact negotiation opportunities."
+		},
+		{
+			title: "Supplier intelligence dashboard",
+			description:
+				"Consolidate supplier performance metrics, risk indicators, and market trends in one unified view. Make data-driven sourcing decisions with confidence using comprehensive supplier intelligence."
+		},
+		{
+			title: "Contract analytics and benchmarking",
+			description:
+				"Compare your contract terms against market benchmarks and competitor data to identify favorable pricing opportunities. Leverage market intelligence to strengthen your negotiation position."
+		},
+		{
+			title: "Collaborative sourcing platform",
+			description:
+				"Enable cross-functional teams to work together seamlessly on sourcing initiatives with shared workflows and audit trails. Improve procurement efficiency and ensure compliance across your organization."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Start saving on your next supplier contract"
+	subtitle="Risk-free pilot with guaranteed savings"
+	description="Join procurement teams already saving millions through intelligent automation. Our pilot program guarantees measurable cost savings, so you only move forward when the ROI is proven. See results in weeks, not months."
+	imageSrc="/generated/image-documentary-style-environmental-portrait.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start your pilot",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Talk to our team",
+			variant: "secondary"
+		}
+	]}
+/>

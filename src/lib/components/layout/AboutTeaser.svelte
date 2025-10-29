@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Jordan Hayes",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-confident-professional-founder-in-thei.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I watched a procurement director spend three weeks researching suppliers for a single component, only to accept terms that left $400K on the table. That moment made it clear—intelligent teams were being held back by manual processes that software should have solved years ago. We built Sage because procurement leaders deserve tools as sophisticated as the decisions they make."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
